@@ -4,6 +4,7 @@
   "description": "An example Gatsby app for MDX Embed",
   "main": "index.js",
   "scripts": {
+    "build:mdx-embed": "yarn workspace mdx-embed build && gatsby build",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "clean": "gatsby clean",

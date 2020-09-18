@@ -1,0 +1,4 @@
+
+[build]
+  command = "build:mdx-embed"
+  publish = "demo/public"
