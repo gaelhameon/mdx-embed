@@ -21,7 +21,8 @@
     "storybook-demo:develop": "yarn workspace storybook-demo develop",
     "storybook-demo:build": "yarn workspace storybook-demo build",
     "deploy": "yarn workspace docs deploy",
-    "cy:test": "start-server-and-test 'yarn storybook' http-get://localhost:6006 'yarn cypress open'"
+    "cypress": "cypress open",
+    "cy:test": "start-server-and-test storybook http-get://localhost:6006 cypress"
   },
   "workspaces": {
     "packages": [

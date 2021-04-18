@@ -20,7 +20,7 @@ describe('<YouTube />', () => {
     expect(screen.getByTestId('youtube')).toBeDefined();
   });
 
-  test.only('it renders the component skipTo defined', () => {
+  test('it renders the component skipTo defined', () => {
     render(<YouTube youTubeId="PS2784YfPpw" skipTo={{ h: 0, m: 38, s: 44 }} />);
 
     act(() => {
